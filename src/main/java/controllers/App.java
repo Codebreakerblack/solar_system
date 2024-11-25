@@ -22,6 +22,8 @@ public class App {
         SystemSolarViews.showMessage("Diameter (km): " + jupiter.getDiameter());
         SystemSolarViews.showMessage("Average Distance from Sun (million km): " + jupiter.getAverageDistanceFromSun());
         SystemSolarViews.showMessage("Planet Type: " + jupiter.getType());
+        SystemSolarViews.showMessage("Orbital period (years): " + jupiter.getOrbitalPeriod());
+        SystemSolarViews.showMessage("Rotation period (days): " + jupiter.getRotationPeriod());
         SystemSolarViews.showMessage(String.format("Density: %.2f kg/km³", jupiter.calculateDensity()));
         SystemSolarViews.showMessage("Is it an outer planet? " + (jupiter.isOuterPlanet() ? "Yes" : "No"));
 
@@ -33,6 +35,8 @@ public class App {
         SystemSolarViews.showMessage("Diameter (km): " + mars.getDiameter());
         SystemSolarViews.showMessage("Average Distance from Sun (million km): " + mars.getAverageDistanceFromSun());
         SystemSolarViews.showMessage("Planet Type: " + mars.getType());
+        SystemSolarViews.showMessage("Orbital period (years): " + mars.getOrbitalPeriod());
+        SystemSolarViews.showMessage("Rotation period (days): " + mars.getRotationPeriod());
         SystemSolarViews.showMessage(String.format("Density: %.2f kg/km³", mars.calculateDensity()));
         SystemSolarViews.showMessage("Is it an outer planet? " + (mars.isOuterPlanet() ? "Yes" : "No"));
     }

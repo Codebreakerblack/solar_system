@@ -15,7 +15,7 @@ public class Planet {
     private double rotationPeriod;
 
     public Planet(String name, int numberOfSatellites, double mass, double volume, int diameter,
-            int averageDistanceFromSun, PlanetType type, boolean observableWithNakedEyedouble, double orbitalPeriod, double rotationPeriod) {
+            int averageDistanceFromSun, PlanetType type, boolean observableWithNakedEye, double orbitalPeriod, double rotationPeriod) {
         this.name = name;
         this.numberOfSatellites = numberOfSatellites;
         this.mass = mass;
