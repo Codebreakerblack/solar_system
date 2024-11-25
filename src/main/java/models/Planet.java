@@ -11,9 +11,11 @@ public class Planet {
     private int averageDistanceFromSun;
     private PlanetType type;
     private boolean observableWithNakedEye;
+    private double orbitalPeriod;
+    private double rotationPeriod;
 
     public Planet(String name, int numberOfSatellites, double mass, double volume, int diameter,
-            int averageDistanceFromSun, PlanetType type, boolean observableWithNakedEye) {
+            int averageDistanceFromSun, PlanetType type, boolean observableWithNakedEyedouble, double orbitalPeriod, double rotationPeriod) {
         this.name = name;
         this.numberOfSatellites = numberOfSatellites;
         this.mass = mass;
@@ -22,6 +24,8 @@ public class Planet {
         this.averageDistanceFromSun = averageDistanceFromSun;
         this.type = type;
         this.observableWithNakedEye = observableWithNakedEye;
+        this.orbitalPeriod = orbitalPeriod;
+        this.rotationPeriod = rotationPeriod;
     }
 
     public String getName() {
@@ -54,6 +58,14 @@ public class Planet {
 
     public boolean isObservableWithNakedEye() {
         return observableWithNakedEye;
+    }
+
+    public double getOrbitalPeriod() {
+        return orbitalPeriod;
+    }
+
+    public double getRotationPeriod() {
+        return rotationPeriod;
     }
 
     public double calculateDensity() {
