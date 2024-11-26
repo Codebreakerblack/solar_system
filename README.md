@@ -24,7 +24,7 @@ This project is a console application developed in Java to model the concept of 
     - Run the `App` class from the IDE, or from the terminal.
 
 ## Diagrama
-[![Blank-diagram.jpg](https://i.postimg.cc/G21CJvQd/Blank-diagram.jpg)](https://postimg.cc/4KwqX7qS)
+[![Captura-desde-2024-11-26-01-15-46.png](https://i.postimg.cc/63dGYLx0/Captura-desde-2024-11-26-01-15-46.png)](https://postimg.cc/9RQMf9MR)
 
 ## Author
 Mariel Blanco
